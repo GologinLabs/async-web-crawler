@@ -1,4 +1,5 @@
 # Async Web Crawler
+> Maintained by [Gologin](https://gologin.com). Originally created by [@triposat](https://github.com/triposat).
 
 An asynchronous Python web crawler. It fetches pages over HTTP first and uses
 a browser only for the pages that need one, either local Chromium or
@@ -17,7 +18,7 @@ Requires [uv](https://docs.astral.sh/uv/), which installs Python 3.13 or newer
 for you.
 
 ```bash
-git clone https://github.com/triposat/async-web-crawler
+git clone https://github.com/GologinLabs/async-web-crawler
 cd async-web-crawler
 uv sync
 uv run playwright install --with-deps chromium
