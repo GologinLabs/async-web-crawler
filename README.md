@@ -1,5 +1,8 @@
 # Async Web Crawler
+
 > Maintained by [Gologin](https://gologin.com). Originally created by [@triposat](https://github.com/triposat).
+
+📖 Full walkthrough with benchmarks: [Python Web Crawler: How to Build One That Scales With Asyncio](https://gologin.com/blog/python-web-crawler/)
 
 An asynchronous Python web crawler. It fetches pages over HTTP first and uses
 a browser only for the pages that need one, either local Chromium or
